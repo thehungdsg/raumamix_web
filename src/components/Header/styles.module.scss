@@ -1,0 +1,20 @@
+@import '@styles/mixin.module.scss';
+@import '@styles/variable.module.scss';
+
+.containerHeader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aqua;
+    height: 80px;
+    font-size: 20px;
+    font-weight: bold;
+    ;
+}
+.containerBoxicon {
+   @include flex_box_custom(flex-end, center, 10px);
+}
+
+.containerMenu {
+   @include flex_box_custom(center, center, 20px);
+}
